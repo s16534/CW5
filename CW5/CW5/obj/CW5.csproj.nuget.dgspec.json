@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\_GITHUB REPOSITORY\\APBD\\CW5\\CW5\\CW5\\CW5.csproj": {}
+    "H:\\_GITHUB REPOSITORY\\APBD\\_NEW\\CW5 — kopia\\CW5\\CW5\\CW5.csproj": {}
   },
   "projects": {
-    "H:\\_GITHUB REPOSITORY\\APBD\\CW5\\CW5\\CW5\\CW5.csproj": {
+    "H:\\_GITHUB REPOSITORY\\APBD\\_NEW\\CW5 — kopia\\CW5\\CW5\\CW5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\_GITHUB REPOSITORY\\APBD\\CW5\\CW5\\CW5\\CW5.csproj",
+        "projectUniqueName": "H:\\_GITHUB REPOSITORY\\APBD\\_NEW\\CW5 — kopia\\CW5\\CW5\\CW5.csproj",
         "projectName": "CW5",
-        "projectPath": "H:\\_GITHUB REPOSITORY\\APBD\\CW5\\CW5\\CW5\\CW5.csproj",
+        "projectPath": "H:\\_GITHUB REPOSITORY\\APBD\\_NEW\\CW5 — kopia\\CW5\\CW5\\CW5.csproj",
         "packagesPath": "C:\\Users\\Matoosh\\.nuget\\packages\\",
-        "outputPath": "H:\\_GITHUB REPOSITORY\\APBD\\CW5\\CW5\\CW5\\obj\\",
+        "outputPath": "H:\\_GITHUB REPOSITORY\\APBD\\_NEW\\CW5 — kopia\\CW5\\CW5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matoosh\\AppData\\Roaming\\NuGet\\NuGet.Config",

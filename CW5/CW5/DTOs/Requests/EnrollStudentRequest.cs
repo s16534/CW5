@@ -8,6 +8,7 @@ namespace CW5.DTOs.Requests
 {
     public class EnrollStudentRequest
     {
+        [Required]
         public string IndexNumber { get; set; }
 
         [Required] 
@@ -18,7 +19,8 @@ namespace CW5.DTOs.Requests
         [MaxLength(250)]
         public string LastName{ get; set; }
 
-        public DateTime BirthDate { get; set; }
+        [Required]
+        public string BirthDate { get; set; }
 
         [Required]
         public string Studies{ get; set; }
