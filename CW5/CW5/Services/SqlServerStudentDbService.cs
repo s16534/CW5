@@ -137,10 +137,12 @@ namespace CW5.Services
                 if (!dr.Read())
                 {
                     dr.Close();
+                    return null;
                 }
                 dr.Close();
 
             }
+
 
             int EnrollmentId = 0;
             using (var con = new SqlConnection(infoConnection))

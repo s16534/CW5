@@ -38,7 +38,14 @@ namespace CW5.Controllers
         public IActionResult PromoteStudents(Study study)
         {
             var response = _service.PromoteStudents(study.Semester, study.Studies);
-            return Created("Students promoted", response);
+            if(response !=null)
+            {
+                return Created("Students promoted", response);
+            } else
+            {
+                return NotFound("Enrollment doesn't exist!");
+            }
+            //return response !=null ? Created("Students promoted", response) : NotFound("Enrollment doesn't exist!");
         }
     }
 }
