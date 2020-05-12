@@ -18,8 +18,8 @@ BEGIN
 	END
 	
 	UPDATE Student SET IdEnrollment=@IdEnrollment 
-	FROM ((Student INNER JOIN Enrollment ON Student.IdEnrollment = Enrollment.IdEnrollment) e INNER JOIN Studies s ON e.IdStudy = s.IdStudy)
-	WHERE e.Semester=@Semester AND s.Name=@Studies;
+	FROM ((Student INNER JOIN Enrollment ON Student.IdEnrollment = Enrollment.IdEnrollment) INNER JOIN Studies ON Enrollment.IdStudy = Studies.IdStudy)
+	WHERE Enrollment.Semester=@Semester AND Studies.Name=@Studies;
 	
 	COMMIT;
 	
