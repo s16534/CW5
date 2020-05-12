@@ -11,5 +11,6 @@ namespace CW5.Services
     {
         void EnrollStudent(EnrollStudentRequest request);
         Enrollment PromoteStudents(int semester, string studies);
+        Student GetStudent(string index);
     }
 }

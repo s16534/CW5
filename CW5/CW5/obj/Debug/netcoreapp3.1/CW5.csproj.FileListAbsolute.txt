@@ -178,7 +178,6 @@ H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\bin\Debug\netcoreapp3.1\ru
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.csprojAssemblyReference.cache
-H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.MvcApplicationPartsAssemblyInfo.cache
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.AssemblyInfoInputs.cache
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.AssemblyInfo.cs
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.RazorTargetAssemblyInfo.cache
@@ -187,3 +186,9 @@ H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\st
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\staticwebassets\CW5.StaticWebAssets.xml
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.dll
 H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.pdb
+H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.MvcApplicationPartsAssemblyInfo.cs
+H:\_GITHUB REPOSITORY\APBD\_NEW\CW5 — kopia\CW5\CW5\obj\Debug\netcoreapp3.1\CW5.MvcApplicationPartsAssemblyInfo.cache

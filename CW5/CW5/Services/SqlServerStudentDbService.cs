@@ -12,6 +12,7 @@ namespace CW5.Services
 {
     public class SqlServerStudentDbService : IStudentDbService
     {
+        private string connectionInfo = "Data Source=db-mssql;Initial Catalog=s16534;Integrated Security=True";
         public void EnrollStudent(EnrollStudentRequest request)
         {
             var student = new Student();
@@ -21,7 +22,7 @@ namespace CW5.Services
             student.Studies = request.Studies;
 
 
-            using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s16534;Integrated Security=True"))
+            using (var con = new SqlConnection(connectionInfo))
             using (var com = new SqlCommand())
             {
                 com.Connection = con;
@@ -118,7 +119,7 @@ namespace CW5.Services
 
         public Enrollment PromoteStudents(int semester, string studies)
         {
-            string infoConnection = "Data Source=db-mssql;Initial Catalog=s16534;Integrated Security=True";
+            string infoConnection = connectionInfo;
 
             var study = new Study();
             study.Studies = studies;
@@ -183,6 +184,30 @@ namespace CW5.Services
 
                 dr.Close();
                 return enroll;
+            }
+        }
+
+        public Student GetStudent(string index)
+        {
+            using (SqlConnection con = new SqlConnection(connectionInfo))
+            using (SqlCommand com = new SqlCommand())
+            {
+                com.Connection = con;
+                com.CommandText = "SELECT IndexNumber FROM Student WHERE IndexNumber=@Index";
+                com.Parameters.AddWithValue("Index", index);
+
+                con.Open();
+                var student = new Student();
+                SqlDataReader sql = com.ExecuteReader();
+                if (sql.Read())
+                {
+                    student.IndexNumber = sql["IndexNumber"].ToString();
+                    return student;
+                }
+                else
+                {
+                    return null;
+                }
             }
         }
     }
